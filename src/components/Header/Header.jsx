@@ -14,6 +14,10 @@ const Header = () => {
          </Link>
         </div>
         <nav className="flex gap-6 text-white text-sm md:text-base max-[600px]:hidden ">
+           <NavLink to="/Dashboard" className="flex items-center gap-1 hover:text-cyan-400 transition" >
+              Dashboard
+          </NavLink>
+
           <NavLink to="/" className="flex items-center gap-1 hover:text-cyan-400 transition" >
             <FaHome /> Home
           </NavLink>
